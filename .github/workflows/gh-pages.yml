@@ -21,6 +21,8 @@ jobs:
         run: npm run docs:build
       - name: Create CNAME file
         run: echo "blog.chuenwei.cyou" > ./docs-dist/CNAME
+      - name: Create WeChat file
+        run: echo "a0217ac1ffec58839906f241c2ae52378ad8b710" > ./docs-dist/d69117a4f13bd908f89336115ef46357.txt
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
