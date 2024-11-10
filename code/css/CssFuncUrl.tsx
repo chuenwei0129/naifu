@@ -13,7 +13,7 @@ const FontDiv = styled.div`
 `;
 
 const ListStyleImage = styled.li`
-  list-style-image: url('/pointer.cur');
+  list-style-image: url('/naifu/pointer.cur');
 `;
 
 const BackgroundImage = styled.li`
@@ -26,7 +26,7 @@ const BackgroundImage = styled.li`
     display: inline-block;
     width: 50px; /* 设置图片宽度 */
     height: 50px; /* 设置图片高度 */
-    background: url('/logo.svg') no-repeat center center;
+    background: url('/naifu/logo.svg') no-repeat center center;
     background-size: contain; /* 确保图片缩放以适应容器 */
     position: absolute;
     left: 0;
