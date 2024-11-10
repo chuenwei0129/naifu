@@ -16381,7 +16381,7 @@ const FontDiv = styled.div\`
 \`;
 
 const ListStyleImage = styled.li\`
-  list-style-image: url('/pointer.cur');
+  list-style-image: url('/naifu/pointer.cur');
 \`;
 
 const BackgroundImage = styled.li\`
@@ -16394,7 +16394,7 @@ const BackgroundImage = styled.li\`
     display: inline-block;
     width: 50px; /* \u8BBE\u7F6E\u56FE\u7247\u5BBD\u5EA6 */
     height: 50px; /* \u8BBE\u7F6E\u56FE\u7247\u9AD8\u5EA6 */
-    background: url('/logo.svg') no-repeat center center;
+    background: url('/naifu/logo.svg') no-repeat center center;
     background-size: contain; /* \u786E\u4FDD\u56FE\u7247\u7F29\u653E\u4EE5\u9002\u5E94\u5BB9\u5668 */
     position: absolute;
     left: 0;
