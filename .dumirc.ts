@@ -8,8 +8,8 @@ const ReactCompilerConfig = {
 };
 
 export default defineConfig({
-  logo: '/logo.svg',
-  favicons: ['/logo.svg'],
+  logo: '/naifu/logo.svg',
+  favicons: ['/naifu/logo.svg'],
   themeConfig: {
     name: 'naifu',
     socialLinks: {
@@ -19,8 +19,8 @@ export default defineConfig({
   // 网站打包输出目录
   outputPath: 'docs-dist',
   // 网站部署路径
-  base: '/',
-  publicPath: '/',
+  base: '/naifu/',
+  publicPath: '/naifu/',
   // tailwindcss 配置
   plugins: ['@umijs/plugins/dist/tailwindcss'],
   tailwindcss: {},
